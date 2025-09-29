@@ -1,0 +1,1 @@
+docker run --rm -p 8080:8080 -v $(pwd)/build/libs:/app -w /app eclipse-temurin:17 java -jar demo-0.0.1-SNAPSHOT.jar
